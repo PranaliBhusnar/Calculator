@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+   
+}
+.container{
+    /* width: 40vw; */
+    background:  violet;
+    padding: 60px;
+    gap: 10px;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+}
+.btn{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+#btn1 ,#btn2 ,#btn3{
+    padding: 10px;
+    flex-wrap: wrap;
+    font-size: medium;
+    background-color: cadetblue;
+    border-radius: 4px;
+    color: #ffffff;
+    box-shadow: 0 2px 4px #4f344e;
+     transition: background-color 0.3s ease,
+              transform 0.2s ease;
+}
+#btn1:hover,
+#btn2:hover,
+#btn3:hover{
+    transform: scale(1.05);
+    border-color: #c7af14;
+}
